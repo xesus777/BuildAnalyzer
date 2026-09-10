@@ -23,7 +23,7 @@
         {
             return (baseAttack + weaponAttack) * (1 + (critDamageProc / 100));
         }
-
+         
         public string getRate()
         {
             if (avgDamage() < 1500)
